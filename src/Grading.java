@@ -1,5 +1,3 @@
-package Aufgabe1;
-
 public class Grading {
     public static int[] Failing(int[] grades) {
         int count = 0;
