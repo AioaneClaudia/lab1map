@@ -66,6 +66,18 @@ public class Main {
         for (int i = 0; i < div.length; i++) {
             System.out.print(div[i] + " ");
         }
+
+        System.out.println();
+        System.out.println("AUFGABE 4:");
+        int[] Tastaturen={40, 35, 70, 15, 45};
+        int[] USB={20, 15, 40, 15};
+        System.out.println("Billigste Tastatur:"+ ElektronikShop.billigsteTastatur(Tastaturen));
+        System.out.println();
+        System.out.println("Teuerste Gegenstand:"+ElektronikShop.teuersteGegenstand(Tastaturen,USB));
+        System.out.println();
+        int budget=30;
+        int[] Preise={15,45,20};
+        System.out.println("teuerster usb laufwerk fur budget:"+ElektronikShop.BudgetUSB(Preise, budget));
     }
 }
 
