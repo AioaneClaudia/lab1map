@@ -72,12 +72,21 @@ public class Main {
         int[] Tastaturen={40, 35, 70, 15, 45};
         int[] USB={20, 15, 40, 15};
         System.out.println("Billigste Tastatur:"+ ElektronikShop.billigsteTastatur(Tastaturen));
+
         System.out.println();
         System.out.println("Teuerste Gegenstand:"+ElektronikShop.teuersteGegenstand(Tastaturen,USB));
+
         System.out.println();
         int budget=30;
         int[] Preise={15,45,20};
         System.out.println("teuerster usb laufwerk fur budget:"+ElektronikShop.BudgetUSB(Preise, budget));
+
+        System.out.println();
+        int budget2=60;
+        int[] Tastaturen2={40,50,60};
+        int[] USB2={8,12};
+        System.out.println("maximalen Geldbetrag anhand Budget und Preislisten:"+ElektronikShop.maximalenGeldbetragFurBudget(Tastaturen2,USB2,budget2));
+
     }
 }
 
